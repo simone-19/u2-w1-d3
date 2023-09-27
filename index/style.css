@@ -1,0 +1,84 @@
+/* sito per mobile width 360px
+ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+}
+.conteiner{
+    margin: 2em;
+}
+header {
+background-color:rgb(254, 247, 226) ;
+text-align: center;
+border-radius: 3em;
+width: 250px;
+font: bold;
+padding: 1em;
+}
+header button{
+    border: 0;
+    border-radius: 1em;
+    background-color: rgb(255, 223, 127);
+    color: rgb(118, 35, 4);
+}
+#button-img {
+    font-size: xx-large;
+    padding: 0.5em;
+    width: 5em;
+    margin: 0.3em 0em;
+}
+#button-img img {
+    width: 30px;
+    margin-right: 0.5em
+}
+
+.buttonB button{
+    padding: 0.5em;
+    
+}
+.buttonB {
+    margin: 0.4em
+}
+#conteinerB {
+    display: flex;
+    flex-direction: column;
+}
+#firstButton {
+    display: flex;
+    justify-content: space-around;
+}
+#secondButton{
+    display: flex;
+    justify-content: space-around;
+}
+h2 {
+ text-align: center;
+    margin: 1em;
+    color: rgb(118, 35, 4);
+}
+#card{
+    background-color: rgb(254, 247, 226);
+    text-align: center;
+    border-radius:  20px;
+    margin-bottom: 2em;
+    
+}
+#cardB button {
+    border: 0;
+    border-radius: 1em;
+    background-color: rgb(255, 223, 127);
+    color: rgb(118, 35, 4);
+    width: 140px;
+    height: 25px;
+}
+#text p {
+    color: rgb(118, 35, 4);
+}
+#img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#text {
+    display: flex;
+    justify-content: space-between;
+}
